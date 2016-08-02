@@ -1,0 +1,21 @@
+{
+  "name": "2d-visualisator",
+  "homepage": "https://github.com/N-BodyPhysicsSimulator/2d-visualisator",
+  "authors": [
+    "Stephan Meijer <me@stephanmeijer.com>"
+  ],
+  "description": "",
+  "main": "src/index.html",
+  "license": "GPL3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jqwidgets": "^4.1.2"
+  }
+}
