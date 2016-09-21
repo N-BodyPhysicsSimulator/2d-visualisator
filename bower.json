@@ -16,6 +16,10 @@
     "tests"
   ],
   "dependencies": {
-    "jqwidgets": "^4.1.2"
+    "jquery": "3.1.0",
+    "three.js": "threejs#*"
+  },
+  "resolutions": {
+    "jquery": "3.1.0"
   }
 }
