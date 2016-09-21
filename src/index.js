@@ -95,18 +95,25 @@ $("canvas").mousedown(function() {
 document.addEventListener('keydown', function(event) {
     var action = keyToAction[event.key];
 
+    // Rotation: Mod 2 pi
+    
     switch (action) {
     case actions.UP:
 	// Key up (Arrow or w)
+	window.cam.rotation.y += 0.1
 	break;
     case actions.DOWN:
 	// Key down (Arrow or s)
+	window.cam.rotation.y -= 0.1
+	
 	break;
     case actions.LEFT:
 	// Key left (Arrow or a)
+	window.cam.rotation.x += 0.1
 	break;
     case actions.RIGHT:
 	// Key right (Arrow or d)
+	window.cam.rotation.x -= 0.1
 	break;
     }
 });
